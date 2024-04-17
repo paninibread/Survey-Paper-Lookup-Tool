@@ -1,0 +1,24 @@
+﻿<Window x:Class="pls_work.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pls_work"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        ui:WindowHelper.UseModernWindowStyle="True"
+        mc:Ignorable="d"
+        Title="Help" Height="450" Width="800"
+        Closing="Window_Closing">
+    <Grid>
+        <Label Content="Help" FontFamily="Calibri" FontWeight="UltraLight" FontSize="44" HorizontalAlignment="Left" Margin="30,21,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,111,0,0" FontSize="16" TextWrapping="Wrap" VerticalAlignment="Top" Height="225" Width="737">
+        Here is a short summary of things you can do in this neat little tool. <LineBreak/><LineBreak/> &#8226; Use the Search bar to look up information from the papers. It can be anything from a keyword to journal name. <LineBreak/> &#8226; Use the Filter button to filter out exactly what you need to look up. <LineBreak/> 
+<Bold>Note:</Bold> By default there are only five columns you can see, so check out the filter menu and see all the data we have available for you! <LineBreak/> &#8226; You can click on any of the entries in the table to show a short summary of the paper. At the bottom, you can find the images we found in the paper if you click on the Show Images button, as well as a link to the actual paper itself.
+        </TextBlock>
+        <!--<TextBlock HorizontalAlignment="Center" Margin="0,391,0,0" FontSize="12" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="300">
+            Made with &#x2764; by Faezeh Borhani and Prashast Sharma
+        </TextBlock>
+        -->
+
+    </Grid>
+</Window>

@@ -1,0 +1,44 @@
+﻿<Window x:Class="pls_work.FilWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pls_work"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        ui:WindowHelper.UseModernWindowStyle="True"
+        mc:Ignorable="d"
+        Title="Filters" Height="450" Width="800"
+        Closing="Window_Closing">
+    <Grid>
+        <Button Content="OK" Margin="605,362,0,0" VerticalAlignment="Top" Click="okBtn" IsDefault="False" />
+        <Button Content="Cancel" Margin="685,362,0,0" VerticalAlignment="Top" Click="canBtn" IsCancel="True"/>
+        <CheckBox x:Name="chkId" Content="ID" IsChecked="True" IsEnabled="False" Margin="70,41,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkLAuthor" Content="Last Author" IsChecked="True" Margin="70,122,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkAuthors" Content="Authors" IsChecked="True" Margin="70,95,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkPublisher" Content="Publisher" IsChecked="True" Margin="70,149,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkYear" Content="Year" IsChecked="True" Margin="70,176,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkConference" Content="Conference" IsChecked="False" Margin="70,202,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkKeyWords" Content="Key Words" IsChecked="False" Margin="70,227,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkTopic" Content="Topic" IsChecked="True" Margin="70,68,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkARVR" Content="AR/VR" IsChecked="False" Margin="70,253,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkHardware" Content="Hardware" IsChecked="False" Margin="70,279,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkSoftware" Content="Software" IsChecked="False" Margin="70,305,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkUsers" Content="Num of Users" IsChecked="False" Margin="70,331,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkDisplay1" Content="Display 1" IsChecked="False" Margin="230,41,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkDisplay2" Content="Display 2" IsChecked="False" Margin="230,68,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkAnnotator" Content="Annotator" IsChecked="False" Margin="230,95,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkSysName" Content="System Name" IsChecked="False" Margin="230,122,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkInput" Content="Input Devices" IsChecked="False" Margin="230,149,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkAnnotationForm" Content="Annotation Form" IsChecked="False" Margin="230,175,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkCollaborationType" Content="Collaboration Type" IsChecked="False" Margin="230,200,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkCollaborationModal" Content="Collaboration Modalities" IsChecked="False" Margin="230,227,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkExperiment" Content="Experiment?" IsChecked="False" Margin="230,253,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkIndoor" Content="Indoor/Outdoor" IsChecked="False" Margin="230,279,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkTask" Content="Task" IsChecked="False" Margin="230,305,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkParticipants" Content="Num of Participants" IsChecked="False" Margin="230,331,0,0" VerticalAlignment="Top"/>
+
+
+
+
+    </Grid>
+</Window>

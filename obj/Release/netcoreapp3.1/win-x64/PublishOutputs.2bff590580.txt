@@ -1,0 +1,2 @@
+F:\VS Repo\pls work\bin\Release\netcoreapp3.1\publish\pls work.pdb
+F:\VS Repo\pls work\bin\Release\netcoreapp3.1\publish\pls work.exe
