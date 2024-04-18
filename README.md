@@ -18,6 +18,4 @@ A companion app for looking up information from the paper [Survey of Annotations
 
 ## Authors
 
-Prashast Sharma
-
-LinkedIn - [@PrashastSh](https://www.linkedin.com/in/prashast-sharma-690778230/)
+Prashast Sharma - [LinkedIn](https://www.linkedin.com/in/prashast-sharma-690778230/)
