@@ -1,4 +1,4 @@
-# Survey-Paper-Lookup-Tool
+# Survey Paper Lookup Tool
 ![Screenshot of the app](/assets/images/screen1.png)
 Search tool as an add on for "Survey on Annotations in Extended Reality Systems.
 
