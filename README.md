@@ -1,20 +1,24 @@
 # Survey Paper Lookup Tool
 ![Screenshot of the app](/assets/images/screen1.png)
-Search tool as an add on for "Survey on Annotations in Extended Reality Systems.
+Search tool as an add on for [Survey of Annotations in Extended Reality Systems](https://ieeexplore.ieee.org/document/10160139)
 
 ## Description
 
-A companion app for looking up information from the paper [Survey of Annotations in XR](https://ieeexplore.ieee.org/document/10160139) at a glance. Contains key condensed information from over 100 research papers.
+This GitHub repository hosts the XR Annotations Survey Companion App, designed to provide users with quick access to condensed information from the paper [Survey of Annotations in Extended Reality Systems](https://ieeexplore.ieee.org/document/10160139). The app serves as a convenient tool for referencing key findings and insights from over 100 research papers related to annotations in Extended Reality (XR) systems.
 
-## Frameworks Used
-* WPF - Windows Presentation Framework
-* SQLite
-* .NET
+**Frameworks Used:**
+- WPF (Windows Presentation Framework)
+- SQLite
+- .NET
 
-### Features
-* A search alogorithm using robust SQL Queries.
-* Search filters.
-* Hyperlinks and key images from the paper.
+## Features:
+1. **Robust Search Algorithm:** Implements a powerful search algorithm using SQL queries to enable users to quickly find relevant information from the extensive dataset of research papers.
+2. **Search Filters:** Provides users with advanced search filters to refine their search results based on specific criteria such as author, publication year, keywords, and more.
+3. **Hyperlinks and Key Images:** Enhances the user experience by including hyperlinks to the original research papers and displaying key images or diagrams extracted from the papers to provide visual context to the annotations discussed.
+
+## Release
+
+[Download](https://github.com/paninibread/Survey-Paper-Lookup-Tool/releases/tag/1.0)
 
 ## Authors
 
